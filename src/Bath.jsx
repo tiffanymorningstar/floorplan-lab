@@ -1,6 +1,9 @@
 const Bath = (props) => {
   return ( 
-    <h1>[size] Bath</h1>
+    <div>
+    <h1>{props.size} Bath</h1>
+
+    </div>
    );
 }
  
